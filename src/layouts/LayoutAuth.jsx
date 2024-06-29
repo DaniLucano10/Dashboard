@@ -1,10 +1,9 @@
-import React from 'react'
+
 import { Outlet } from 'react-router-dom'
 
 export const LayoutAuth = () => {
   return (
-    <div>
-      LayoutAuth 
+    <div className="min-h-screen flex items-center justify-center">
       <Outlet />
     </div>
   )
