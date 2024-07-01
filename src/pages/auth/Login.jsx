@@ -6,9 +6,9 @@ export const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="text-white bg-secondary-100 p-8 rounded-xl shadow-[0px_0px_25px_0px_#1d4ed8] w-auto lg:w-[400px]">
+    <div className="text-white bg-secondary-100 p-8 rounded-xl shadow-[0px_0px_25px_#bbf7d0] w-auto lg:w-[400px]">
       <h1 className="text-3xl text-center uppercase font-bold tracking-[5px] mb-8">
-        Iniciar sesíon
+        Iniciar <span className="text-primary border-b">sesíon</span>
       </h1>
       <form className="mb-8">
         <button className="flex items-center justify-center py-3 px-4 gap-4 bg-secondary-900 w-full rounded-full mb-8 text-gray-100">
@@ -46,7 +46,7 @@ export const Login = () => {
           )}
         </div>
         <div>
-          <button type="submit" className="bg-secondary-900 w-full py-3 px-2 rounded-lg hover:text-gray-700 transition-colors">
+          <button type="submit" className="bg-primary w-full text-white upercase font- text-sm py-3 px-4 rounded-lg hover:text-gray-100 transition-colors">
             Ingresar
           </button>
         </div>
@@ -57,7 +57,7 @@ export const Login = () => {
         </Link>
         <span className="flex items-center gap-2">
           ¿No tienes cuenta? 
-          <Link to="/" className="text-primary hover:text-gray-100 transition-colors">
+          <Link to="/auth/registro" className="text-primary/90 hover:text-gray-100 transition-colors">
             Registrate
           </Link>
         </span>
