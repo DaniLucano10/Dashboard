@@ -3,6 +3,7 @@ import { Login, Register } from "./pages/auth";
 import { Chat, Home } from "./pages/admin"
 import Error404 from "./pages/Error404";
 import { LayoutAuth, LayoutAdmin } from "./layouts";
+import { ForgetPassword } from "./pages/auth/ForgetPassword";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/auth" element={<LayoutAuth />} >
           <Route index element={<Login />}/>
           <Route path="registro" element={<Register />} />
+          <Route path="olvide-password" element={<ForgetPassword />} />
         </Route>
         <Route path="/" element={<LayoutAdmin />}>
           <Route index element={<Home />} />

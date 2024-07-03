@@ -51,8 +51,8 @@ export const Login = () => {
           </button>
         </div>
       </form>
-      <div className="flex flex-col gap-4 ">
-        <Link to="/" className="hover:text-primary transition-colors">
+      <div className="flex flex-col items-center gap-4 ">
+        <Link to="/auth/olvide-password" className="hover:text-primary transition-colors">
           ¿Olvidaste tu contraseña?
         </Link>
         <span className="flex items-center gap-2">
