@@ -46,7 +46,7 @@ export const Login = () => {
           )}
         </div>
         <div>
-          <button type="submit" className="bg-primary w-full text-white upercase font- text-sm py-3 px-4 rounded-lg hover:text-gray-100 transition-colors">
+          <button type="submit" className="bg-primary w-full text-white uppercase font text-sm py-3 px-4 rounded-lg hover:text-gray-100 transition-colors">
             Ingresar
           </button>
         </div>
